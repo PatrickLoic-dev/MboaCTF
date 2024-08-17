@@ -16,6 +16,7 @@ body{
 
 h1{
     font-family: 'Hexaframe CF', sans-serif;
+    font-weight: heavy;
 }
 
 h1>span{
@@ -168,6 +169,50 @@ main{
     margin-top: -200px;
     scale: 0.70;
 }
+
+.ourTargets{
+    border : 1px solid #040952;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.ourTargets>h1{
+    font-size: 56px; 
+    margin-right: 127px;
+}
+
+.card{
+    width: 469px;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding: 0 50px;
+    background-color: #000232;
+    border: 1px solid #02054B;
+    border-radius: 10px;
+    padding: 16px 24px;
+    font-weight: 100;
+}
+
+.card:nth-child(2n){
+    margin-left: 171px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.card>img{
+    height: 32px;
+    width: 32px;
+    margin-right: 50px;
+}
+
+
 
 footer{
     display: flex;
