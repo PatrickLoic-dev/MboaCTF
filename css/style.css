@@ -138,6 +138,7 @@ main{
 
 .whoWeAre>img{
     z-index: 0;
+    scale: 1.25;
     position: absolute;
 }
 
@@ -183,6 +184,7 @@ main{
 .ourTargets>h1{
     font-size: 56px; 
     margin-right: 127px;
+    z-index: 1000;
 }
 
 .card{
@@ -198,6 +200,7 @@ main{
     border-radius: 10px;
     padding: 16px 24px;
     font-weight: 100;
+    z-index: 1000;
 }
 
 .card:nth-child(2n){
@@ -212,7 +215,12 @@ main{
     margin-right: 50px;
 }
 
-
+.ourTargets>img{
+    z-index: 0;
+    position: absolute;
+    left: 0px;
+    scale: 1.25;
+}
 
 footer{
     display: flex;
