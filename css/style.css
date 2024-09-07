@@ -58,7 +58,7 @@ header>nav>ul>li>a{
 }
 
 header>nav>ul>li>a:hover{
-    color: #FFD700;
+    color: #0EEBAA;
 }
 
 main{
@@ -108,7 +108,7 @@ main{
     cursor: pointer;
 }
 
-.whoWeAre{
+#whoWeAre{
     border : 1px solid #040952;
     height: 100vh;
     display: flex;
@@ -119,7 +119,7 @@ main{
     overflow: hidden;
 }
 
-.whoWeAre>h1{
+#whoWeAre>h1{
     font-size: 3em;
     margin-bottom: 50px;
     z-index: 1000;
@@ -127,7 +127,7 @@ main{
     margin-bottom: 91.85px;
 }
 
-.whoWeAre>p{
+#whoWeAre>p{
     font-size: 20px;
     width: 69%;
     text-align: center;
@@ -136,13 +136,13 @@ main{
     font-weight: 200;
 }
 
-.whoWeAre>img{
+#whoWeAre>img{
     z-index: 0;
     scale: 1.25;
     position: absolute;
 }
 
-.ourMission{
+#ourMission{
     border : 1px solid #040952;
     height: 100vh;
     display: flex;
@@ -153,12 +153,12 @@ main{
 }
 
 
-.ourMission>.text>h1{
+#ourMission>.text>h1{
    font-size: 48px;
    margin-bottom: 62.85px;
 }
 
-.ourMission>.text>p{
+#ourMission>.text>p{
     font-size: 18px;
     width: 81%;
     text-align: left;
@@ -166,12 +166,12 @@ main{
     margin-right: 244px;
 }
 
-.ourMission>img{
+#ourMission>img{
     margin-top: -200px;
     scale: 0.70;
 }
 
-.ourTargets{
+#ourTargets{
     border : 1px solid #040952;
     height: 100vh;
     display: flex;
@@ -181,13 +181,13 @@ main{
     overflow: hidden;
 }
 
-.ourTargets>h1{
+#ourTargets>h1{
     font-size: 56px; 
     margin-right: 127px;
     z-index: 1000;
 }
 
-.ourTargets>.cards>.card{
+#ourTargets>.cards>.card{
     width: 469px;
     height: 64px;
     display: flex;
@@ -203,7 +203,7 @@ main{
     z-index: 1000;
 }
 
-.ourTargets>.cards>.card:nth-child(2n){
+#ourTargets>.cards>.card:nth-child(2n){
     margin-left: 171px;
     margin-top: 14px;
     margin-bottom: 14px;
@@ -215,7 +215,7 @@ main{
     margin-right: 50px;
 }
 
-.ourTargets>img{
+#ourTargets>img{
     z-index: 0;
     position: absolute;
     left: 0px;
@@ -230,7 +230,7 @@ footer{
     padding: 41px 51px 84px 76px;
 }
 
-.ourCriteria{
+#ourCriteria{
     border : 1px solid #040952;
     height: 100vh;
     display: flex;
@@ -241,21 +241,21 @@ footer{
     overflow: hidden;
 }
 
-.ourCriteria>.text{
+#ourCriteria>.text{
     font-size: 32px;
     width: 480px;
     overflow: hidden;
     font-weight: 300;
 }
 
-.ourCriteria>img{
+#ourCriteria>img{
     margin: 0 180px;
     scale: 1.25;
 }
 
 
 
-.ourCriteria>.text>p{
+#ourCriteria>.text>p{
     font-size: 18px;
     margin-top: 1rem;
 }
@@ -304,7 +304,7 @@ footer{
     font-weight: 300;
 }
 
-.ourSponsors{
+#ourSponsors{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -315,7 +315,7 @@ footer{
     overflow: hidden;
 }
 
-.ourSponsors>h1{
+#ourSponsors>h1{
     font-size: 48px;
     z-index: 1000;
 }
@@ -363,7 +363,7 @@ footer{
     border-radius: 50%;
 }
 
-.contact{
+#contact{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -374,12 +374,12 @@ footer{
     overflow: hidden;
 }
 
-.contact>h1{
+#contact>h1{
     font-size: 48px;
     z-index: 1000;
 }
 
-.contact>.method{
+#contact>.method{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -391,19 +391,19 @@ footer{
     margin-top: 50px;
 }
 
-.contact>.method>h3{
+#contact>.method>h3{
     font-size: 32px;
     font-weight: 300;
     margin: 16px 0;
     font-family: 'Hexaframe CF', sans-serif;
 }
 
-.contact>.method>h3>span{
+#contact>.method>h3>span{
     color: #0EEBAA;
     font-family: 'Hexaframe CF', sans-serif;
 }
 
-.contact>.method>.info{
+#contact>.method>.info{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -412,18 +412,18 @@ footer{
     margin: 16px 0;
 }
 
-.contact>.method>.info>img{
+#contact>.method>.info>img{
     width: 40px;
     height: 40px;
 }
 
-.contact>.method>.info>a{
+#contact>.method>.info>a{
     font-size: 18px;
     text-decoration: none;
     color: #FFFFFF;
 }
 
-.contact>.method>.info>a:hover{
+#contact>.method>.info>a:hover{
     color: #0EEBAA;
     transition: all ease 0.5s;
 }
