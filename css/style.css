@@ -187,7 +187,7 @@ main{
     z-index: 1000;
 }
 
-.card{
+.ourTargets>.card{
     width: 469px;
     height: 64px;
     display: flex;
@@ -203,7 +203,7 @@ main{
     z-index: 1000;
 }
 
-.card:nth-child(2n){
+.ourTargets>.card:nth-child(2n){
     margin-left: 171px;
     margin-top: 14px;
     margin-bottom: 14px;
@@ -253,10 +253,54 @@ footer{
     scale: 1.25;
 }
 
-.ourCriteria>text:nth-child(n){
-}
+
 
 .ourCriteria>.text>p{
     font-size: 18px;
     margin-top: 1rem;
+}
+
+.fields{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    height: 100vh;  
+    border: 1px solid #040952;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+.fields>h1{
+    font-size: 48px;
+    z-index: 1000;
+}
+
+.fields>.cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+    width: 1460px;
+    margin-top: 98px;
+    border: 1px solid #040952;
+    gap: 1rem;
+}
+
+.fields>.cards>.card{
+    display: flex;
+    width: 374px;
+    height: 128px;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding: 0 50px;
+    background-color: #000232;
+    border: 1px solid #02054B;
+    border-radius: 10px;
+}
+
+.fields>.cards>.card>h2{
+    font-weight: 300;
 }
