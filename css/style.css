@@ -187,7 +187,7 @@ main{
     z-index: 1000;
 }
 
-.ourTargets>.card{
+.ourTargets>.cards>.card{
     width: 469px;
     height: 64px;
     display: flex;
@@ -203,7 +203,7 @@ main{
     z-index: 1000;
 }
 
-.ourTargets>.card:nth-child(2n){
+.ourTargets>.cards>.card:nth-child(2n){
     margin-left: 171px;
     margin-top: 14px;
     margin-bottom: 14px;
@@ -284,7 +284,6 @@ footer{
     padding: 2rem;
     width: 1460px;
     margin-top: 98px;
-    border: 1px solid #040952;
     gap: 1rem;
 }
 
@@ -303,4 +302,128 @@ footer{
 
 .fields>.cards>.card>h2{
     font-weight: 300;
+}
+
+.ourSponsors{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    border: 1px solid #040952;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+.ourSponsors>h1{
+    font-size: 48px;
+    z-index: 1000;
+}
+
+.cards.carrusel{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 2rem;
+    margin-top: 164px;
+
+    gap: 1rem;
+}
+
+.cards.carrusel>.card-sponsor{
+    display: flex;
+    width: 374px;
+    height: 355px;
+    flex-direction: column;
+    align-items: start;
+    padding: 40px 50px;
+    background-color: #000232;
+    border: 1px solid #02054B;
+    border-radius: 10px;
+}
+
+.cards.carrusel>.card-sponsor>h2{
+    font-family: 'Hexaframe CF', sans-serif;    
+    font-weight: 300;
+    margin: 16px 0;
+}
+
+.cards.carrusel>.card-sponsor>p{
+    font-size: 18px;
+    font-weight: 200;
+    margin: 16px 0;
+    width: 300px;
+}
+
+.cards.carrusel>.card-sponsor>img{
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    border: 1px solid #040952;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+.contact>h1{
+    font-size: 48px;
+    z-index: 1000;
+}
+
+.contact>.method{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1280px;
+    background-color: #000232;
+    border: 1px solid #040952;
+    border-radius: 10px;
+    padding: 2rem;
+    margin-top: 50px;
+}
+
+.contact>.method>h3{
+    font-size: 32px;
+    font-weight: 300;
+    margin: 16px 0;
+    font-family: 'Hexaframe CF', sans-serif;
+}
+
+.contact>.method>h3>span{
+    color: #0EEBAA;
+    font-family: 'Hexaframe CF', sans-serif;
+}
+
+.contact>.method>.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+    margin: 16px 0;
+}
+
+.contact>.method>.info>img{
+    width: 40px;
+    height: 40px;
+}
+
+.contact>.method>.info>a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.contact>.method>.info>a:hover{
+    color: #0EEBAA;
+    transition: all ease 0.5s;
 }
