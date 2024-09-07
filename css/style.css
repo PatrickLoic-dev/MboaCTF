@@ -3,6 +3,7 @@
     padding: 0;
     color: #FFFFFF;
     font-family: 'HarmonyOS Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 
 body{
