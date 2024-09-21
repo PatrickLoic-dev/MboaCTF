@@ -22,6 +22,31 @@
             </ul>
         </nav>
         <button class="registerBtn">Register</button> 
+
+        <div id="myNav" class="overlay">
+
+            <!-- Button to close the overlay navigation -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          
+            <!-- Overlay content -->
+            <div class="overlay-content">
+                <nav>
+                    <ul>
+                        <li><a href="#whoWeAre" onclick="closeNav()">Who We Are</a></li>
+                        <li><a href="#ourMission" onclick="closeNav()">Our Mission</a></li>
+                        <li><a href="#ourTargets" onclick="closeNav()">Our targets</a></li>
+                        <li><a href="./pages/ctf-v1.html" onclick="closeNav()">Our Past events</a></li>
+                        <li><a href="#ourCriteria" onclick="closeNav()">Our Criteria</a></li>
+                        <li><a href="#ourSponsors" onclick="closeNav()">Our Sponsors</a></li>
+                        <li><a href="#contact" onclick="closeNav()">Contact us</a></li>
+                    </ul>
+                </nav>
+            </div>
+          
+          </div>
+          
+          <!-- Use any element to open/show the overlay navigation menu -->
+          <button class = "navigationBtn"onclick="openNav()">&#9776;</button>
     </header>
     
     
@@ -50,7 +75,7 @@
             <!--Our Mission Section-->
             <div id="ourMission">
                 <div class="text">
-                    <h1>Our <br><span>Mission</span></h1>
+                    <h1>Our <span>Mission</span></h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. Quisque sagittis orci ut diam condimentum, vel euismod erat placerat. In iaculis arcu eros, eget tempus orci facilisis id.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna.  </p>
                 </div>
                 
@@ -59,7 +84,7 @@
 
             <!--Our Targets Section-->
             <div id="ourTargets">
-                <h1>Our <br><span>Desired Targets</span></h1>
+                <h1>Our <span>Desired Targets</span></h1>
                 <div class="cards">
                     <div class="card">
                         <img src="./assets/icons/icon/feathericons/play-circle.svg" alt="">
@@ -88,14 +113,14 @@
             <!-- Criteria Section -->
             <div id="ourCriteria">
                 <div class="text">
-                    <h1>Eligibility <br><span>Criteria</span></h1>
+                    <h1>Eligibility <span>Criteria</span></h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. Quisque sagittis orci ut diam condimentum, vel euismod erat placerat. In iaculis arcu eros, eget tempus orci facilisis id.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna.  </p>
                 </div>
                 
                 <img src="./assets/Illustration-1.svg" alt="illustration">
         
                 <div class="text">
-                    <h1>Competition <br><span>Ethics</span></h1>
+                    <h1>Competition <span>Ethics</span></h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. Quisque sagittis orci ut diam condimentum, vel euismod erat placerat. In iaculis arcu eros, eget tempus orci facilisis id.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna.  </p>
                 </div>
             </div>
@@ -145,37 +170,18 @@
             <div id="ourSponsors">
                 <h1>Our<span>Sponsors</span></h1>
 
-                <div class="cards carrusel">
-                    <div class="card-sponsor">
-                        <img src="./assets/sponsors/orange-logo.png" alt="">
-                        <h2>EdgeMed</h2>
-                        <p>Providing telemedicine and advanced medical services to remote clinics and doctors offices.</p>
+                <div class="logos">
+                    <div class="logos-slide">
+                        <img src="./assets/logos/3m.svg" />
+                        <img src="./assets/logos/barstool-store.svg" />
+                        <img src="./assets/logos/budweiser.svg" />
+                        <img src="./assets/logos/buzzfeed.svg" />
+                        <img src="./assets/logos/forbes.svg" />
+                        <img src="./assets/logos/macys.svg" />
+                        <img src="./assets/logos/menshealth.svg" />
+                        <img src="./assets/logos/mrbeast.svg" />
                     </div>
-
-                    <div class="card-sponsor">
-                        <img src="./assets/sponsors/orange-logo.png" alt="">
-                        <h2>EdgeMed</h2>
-                        <p>Providing telemedicine and advanced medical services to remote clinics and doctors offices.</p>
                     </div>
-
-                    <div class="card-sponsor">
-                        <img src="./assets/sponsors/orange-logo.png" alt="">
-                        <h2>EdgeMed</h2>
-                        <p>Providing telemedicine and advanced medical services to remote clinics and doctors offices.</p>
-                    </div>
-
-                    <div class="card-sponsor">
-                        <img src="./assets/sponsors/orange-logo.png" alt="">
-                        <h2>EdgeMed</h2>
-                        <p>Providing telemedicine and advanced medical services to remote clinics and doctors offices.</p>
-                    </div>
-
-                    <div class="card-sponsor">
-                        <img src="./assets/sponsors/orange-logo.png" alt="">
-                        <h2>EdgeMed</h2>
-                        <p>Providing telemedicine and advanced medical services to remote clinics and doctors offices.</p>
-                    </div>
-
 
                 </div>
             </div>
@@ -215,5 +221,8 @@
         <p>Legal mention &copy; 2024 MBOA CTF. All rights reserved.</p>
         <img src="./assets/Mboa CTF logo.svg" alt="Mboa Logo" class="logo">
     </footer>
+
+    <script src="./js/script.js"></script>
+
 </body>
 </html>

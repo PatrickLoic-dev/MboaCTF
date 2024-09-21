@@ -12,16 +12,38 @@
         <img src="../assets/Mboa CTF logo.svg" alt="Mboa Logo" class="logo">
         <nav>
             <ul>
-                <li><a href="/#whoWeAre">Who We Are</a></li>
-                <li><a href="/#ourMission">Our Mission</a></li>
-                <li><a href="/#ourTargets">Our targets</a></li>
-                <li><a href="#">Our Past events</a></li>
-                <li><a href="/#ourCriteria">Our Criteria</a></li>
-                <li><a href="/#ourSponsors">Our Sponsors</a></li>
-                <li><a href="/#contact">Contact us</a></li>
+                <li><a href="../index.html" onclick="closeNav()">Home</a></li>
+                <li><a href="#whoWeAre" onclick="closeNav()">Who We Are</a></li>
+                <li><a href="#statistics" onclick="closeNav()">Our Statistics</a></li>
+                <li><a href="#ourSponsors" onclick="closeNav()">Our Past Sponsors</a></li>
+                <li><a href="#contact" onclick="closeNav()">Contact us</a></li>
             </ul>
         </nav>
         <button class="registerBtn">Register</button> 
+
+        
+        <div id="myNav" class="overlay">
+
+            <!-- Button to close the overlay navigation -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          
+            <!-- Overlay content -->
+            <div class="overlay-content">
+                <nav>
+                    <ul>
+                        <li><a href="./index.html" onclick="closeNav()">Home</a></li>
+                        <li><a href="#whoWeAre" onclick="closeNav()">Who We Are</a></li>
+                        <li><a href="#statistics" onclick="closeNav()">Our Statistics</a></li>
+                        <li><a href="#ourSponsors" onclick="closeNav()">Our Past Sponsors</a></li>
+                        <li><a href="#contact" onclick="closeNav()">Contact us</a></li>
+                    </ul>
+                </nav>
+            </div>
+          
+          </div>
+          
+          <!-- Use any element to open/show the overlay navigation menu -->
+          <button class = "navigationBtn"onclick="openNav()">&#9776;</button>
     </header>
     
     
@@ -80,38 +102,18 @@
             <!-- Our sponsors section -->
             <div class="ourSponsors">
                 <h1>Past <span>Sponsors</span></h1>
-
-                <div class="cards carrusel">
-                    <div class="card-sponsor">
-                        <img src="../assets/sponsors/orange-logo.png" alt="">
-                        <h2>EdgeMed</h2>
-                        <p>Providing telemedicine and advanced medical services to remote clinics and doctors offices.</p>
+                <div class="logos">
+                    <div class="logos-slide">
+                        <img src="../assets/logos/3m.svg" />
+                        <img src="../assets/logos/barstool-store.svg" />
+                        <img src="../assets/logos/budweiser.svg" />
+                        <img src="../assets/logos/buzzfeed.svg" />
+                        <img src="../assets/logos/forbes.svg" />
+                        <img src="../assets/logos/macys.svg" />
+                        <img src="../assets/logos/menshealth.svg" />
+                        <img src="../assets/logos/mrbeast.svg" />
                     </div>
-
-                    <div class="card-sponsor">
-                        <img src="../assets/sponsors/orange-logo.png" alt="">
-                        <h2>EdgeMed</h2>
-                        <p>Providing telemedicine and advanced medical services to remote clinics and doctors offices.</p>
                     </div>
-
-                    <div class="card-sponsor">
-                        <img src="../assets/sponsors/orange-logo.png" alt="">
-                        <h2>EdgeMed</h2>
-                        <p>Providing telemedicine and advanced medical services to remote clinics and doctors offices.</p>
-                    </div>
-
-                    <div class="card-sponsor">
-                        <img src="../assets/sponsors/orange-logo.png" alt="">
-                        <h2>EdgeMed</h2>
-                        <p>Providing telemedicine and advanced medical services to remote clinics and doctors offices.</p>
-                    </div>
-
-                    <div class="card-sponsor">
-                        <img src="../assets/sponsors/orange-logo.png" alt="">
-                        <h2>EdgeMed</h2>
-                        <p>Providing telemedicine and advanced medical services to remote clinics and doctors offices.</p>
-                    </div>
-
 
                 </div>
             </div>
@@ -151,5 +153,7 @@
         <p>Legal mention &copy; 2024 MBOA CTF. All rights reserved.</p>
         <img src="../assets/Mboa CTF logo.svg" alt="Mboa Logo" class="logo">
     </footer>
+
+    <script src="../js/script.js"></script>
 </body>
 </html>
